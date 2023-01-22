@@ -18,7 +18,7 @@ import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.fonts.jetbrains_mono.FlatJetBrainsMonoFont;
 import com.formdev.flatlaf.themes.FlatMacLightLaf;
 
-public class ImSwingClient {
+public class ImClient {
 
     public static void main(String[] args) {
         FlatJetBrainsMonoFont.install();
@@ -26,7 +26,7 @@ public class ImSwingClient {
         setUIFont(new FontUIResource(FlatJetBrainsMonoFont.FAMILY, Font.PLAIN, 14));
         FlatMacLightLaf.setup();
 
-        ImSwingClient app = new ImSwingClient();
+        ImClient app = new ImClient();
         app.buildAndDisplayGui();
     }
 
